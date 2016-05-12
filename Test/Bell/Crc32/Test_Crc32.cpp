@@ -16,9 +16,9 @@ TEST(Bell_Crc32, Crc32)
 	using namespace std;
 	using namespace Bell::Crc32;
 	
-	vector<std::uint8_t> a;	//	[0, 1, ... 255]
-	vector<std::uint8_t> b;	//	[255, ... 1, 0]
-	vector<std::uint8_t> c;	//	[a..., b...]
+	vector<uint8_t> a;	//	[0, 1, ... 255]
+	vector<uint8_t> b;	//	[255, ... 1, 0]
+	vector<uint8_t> c;	//	[a..., b...]
 	
 	a.resize(256);
 	b.resize(256);

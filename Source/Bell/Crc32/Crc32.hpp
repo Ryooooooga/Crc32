@@ -10,7 +10,7 @@
 #pragma once
 
 #include <cstdint>
-#include <Google/array_ref.hpp>
+#include <Bell/ArrayView.hpp>
 
 namespace Bell { namespace Crc32 {
 
@@ -24,6 +24,6 @@ namespace Bell { namespace Crc32 {
 	 *
 	 * @return     CRC-32
 	 */
-	Crc32Digest crc32(std::array_ref<std::uint8_t> bytes, Crc32Digest crc = 0) noexcept;
+	Crc32Digest crc32(ArrayView<std::uint8_t> bytes, Crc32Digest crc = 0) noexcept;
 
 }}	//	namespace Bell::Crc32
