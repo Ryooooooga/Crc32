@@ -10,7 +10,7 @@
 #pragma once
 
 #include <cstdint>
-#include <Bell/ArrayView.hpp>
+#include "../ArrayView.hpp"
 
 namespace Bell { namespace Crc32 {
 

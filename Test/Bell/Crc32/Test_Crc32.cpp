@@ -9,7 +9,7 @@
 
 #include <numeric>
 #include <gtest/gtest.h>
-#include "../../../Source/Bell/Crc32/Crc32.hpp"
+#include "../../../Bell/Crc32/Crc32.hpp"
 
 TEST(Bell_Crc32, Crc32)
 {
