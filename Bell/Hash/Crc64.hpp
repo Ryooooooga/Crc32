@@ -14,7 +14,7 @@
 
 namespace Bell { namespace Hash { namespace Crc64 {
 
-	using Crc64Digest = std::uint32_t;
+	using Crc64Digest = std::uint64_t;
 
 	/**
 	 * @brief      CRC-64
