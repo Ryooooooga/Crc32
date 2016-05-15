@@ -12,18 +12,18 @@
 #include <cstdint>
 #include "../ArrayView.hpp"
 
-namespace Bell { namespace Crc32 {
+namespace Bell { namespace Hash { namespace Crc64 {
 
-	using Crc32Digest = std::uint32_t;
+	using Crc64Digest = std::uint64_t;
 
 	/**
-	 * @brief      CRC-32
+	 * @brief      CRC-64
 	 *
-	 * @param[in]  bytes  CRC-32 を求めるバイト配列
-	 * @param[in]  crc    CRC-32 の初期値
+	 * @param[in]  bytes  CRC-64 を求めるバイト配列
+	 * @param[in]  crc    CRC-64 の初期値
 	 *
-	 * @return     CRC-32
+	 * @return     CRC-64
 	 */
-	Crc32Digest crc32(ArrayView<std::uint8_t> bytes, Crc32Digest crc = 0) noexcept;
+	Crc64Digest crc64(ArrayView<std::uint8_t> bytes, Crc64Digest crc = 0) noexcept;
 
-}}	//	namespace Bell::Crc32
+}}}	//	namespace Bell::Hash::Crc32
