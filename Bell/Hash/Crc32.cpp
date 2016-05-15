@@ -11,7 +11,7 @@
 
 #include "Crc32.hpp"
 
-namespace Bell { namespace Crc32 {
+namespace Bell { namespace Hash { namespace Crc32 {
 
 	//	CRC-32
 	Crc32Digest crc32(ArrayView<std::uint8_t> bytes, Crc32Digest crc) noexcept
@@ -60,4 +60,4 @@ namespace Bell { namespace Crc32 {
 		return ~crc;
 	}
 
-}}	//	namespace Bell::Crc32
+}}}	//	namespace Bell::Hash::Crc32

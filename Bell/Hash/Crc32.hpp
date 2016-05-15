@@ -12,7 +12,7 @@
 #include <cstdint>
 #include "../ArrayView.hpp"
 
-namespace Bell { namespace Crc32 {
+namespace Bell { namespace Hash { namespace Crc32 {
 
 	using Crc32Digest = std::uint32_t;
 
@@ -26,4 +26,4 @@ namespace Bell { namespace Crc32 {
 	 */
 	Crc32Digest crc32(ArrayView<std::uint8_t> bytes, Crc32Digest crc = 0) noexcept;
 
-}}	//	namespace Bell::Crc32
+}}}	//	namespace Bell::Hash::Crc32

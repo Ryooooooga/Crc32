@@ -9,12 +9,12 @@
 
 #include <numeric>
 #include <gtest/gtest.h>
-#include "../../../Bell/Crc32/Crc32.hpp"
+#include "../../../Bell/Hash/Crc32.hpp"
 
-TEST(Bell_Crc32, Crc32)
+TEST(Bell_Hash_Crc32, Crc32)
 {
 	using namespace std;
-	using namespace Bell::Crc32;
+	using namespace Bell::Hash::Crc32;
 	
 	vector<uint8_t> a;	//	[0, 1, ... 255]
 	vector<uint8_t> b;	//	[255, ... 1, 0]
